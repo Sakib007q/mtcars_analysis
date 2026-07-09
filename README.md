@@ -40,7 +40,7 @@ The goal is to translate these patterns into insights that manufacturers, fleet 
 
 ### 1. Distribution of Cars by Transmission Type
 
-![Transmission Distribution](plots/cars_count vs transmission.png)
+![Transmission Distribution](plots/cars_count_vs_transmission.png)
 
 Automatic transmissions outnumber manual transmissions in the dataset, suggesting a general buyer preference for automatics — likely driven by convenience, comfort, and advanced drivetrain features. A smaller segment of manual-transmission buyers appears to prioritize lower purchase price, reduced maintenance costs, and better fuel economy.
 
@@ -48,7 +48,7 @@ Automatic transmissions outnumber manual transmissions in the dataset, suggestin
 
 ### 2. Cylinders vs Gears: Key Differences
 
-![Cylinders vs Gears Heatmap](plots/cylinder vs gears.png)
+![Cylinders vs Gears Heatmap](plots/cylinder_vs_gears.png)
 
 8-cylinder vehicles cluster around 3 or 5 gears. These are typically high-performance vehicles (muscle cars, heavy-duty trucks) whose powerful engines don't require as many gears to deliver strong acceleration and torque.
 
@@ -56,7 +56,7 @@ Automatic transmissions outnumber manual transmissions in the dataset, suggestin
 
 ### 3. MPG Distribution Overview
 
-![MPG Distribution](plots/weight vs MPG.png)
+![MPG Distribution](plots/weight_vs_MPG.png)
 
 Most vehicles cluster in the 15–22 MPG range, with a small number of high-efficiency outliers exceeding 30 MPG. High-MPG vehicles represent a smaller share of the market.
 
@@ -64,7 +64,7 @@ Most vehicles cluster in the 15–22 MPG range, with a small number of high-effi
 
 ### 4. Efficiency vs Performance vs Transmission
 
-![Efficiency vs Performance Scatter](plots/eff vs perf vs transmission.png)
+![Efficiency vs Performance Scatter](plots/eff_vs_perf_vs_transmission.png)
 
 Higher-performance cars (measured via horsepower–quarter-mile time) generally show lower efficiency (MPG relative to horsepower × weight) — a clear power/economy trade-off. Manual transmissions tend to be more efficient than automatics at similar performance levels, particularly in the mid-range, while automatics dominate the high-performance segment (often paired with larger engines).
 
@@ -72,7 +72,7 @@ Higher-performance cars (measured via horsepower–quarter-mile time) generally 
 
 ### 5. Horsepower Density by Transmission Type
 
-![Horsepower Density](plots/horsepower by transmission.png)
+![Horsepower Density](plots/horsepower_by_transmission.png)
 
 Manual vehicles concentrate in the lower horsepower range (roughly 50–150 hp), aligning with efficiency-focused, budget-conscious buyers. Automatic vehicles dominate the 150–250 hp range, aligning with premium/performance-oriented demand. High-horsepower outliers (300+ hp) exist in both categories but remain a niche segment.
 
@@ -80,7 +80,7 @@ Manual vehicles concentrate in the lower horsepower range (roughly 50–150 hp),
 
 ### 6. MPG vs Horsepower: Exploring the Trade-Off
 
-![MPG vs Horsepower](plots/MPG vs horsepower.png)
+![MPG vs Horsepower](plots/MPG_vs_horsepower.png)
 
 Weight emerges as the strongest driver of MPG, with a clear negative relationship — heavier vehicles consistently deliver lower fuel efficiency. Weight also correlates with horsepower, since larger vehicles typically require more powerful engines, compounding the efficiency cost.
 
